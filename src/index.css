@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+/* ─── Brand Tokens ─────────────────────────────────────────────────────────── */
+:root {
+  --kinetic-orange: #F06F02;
+  --kinetic-blue: #3E80AD;
+  --kinetic-orange-light: rgba(240, 111, 2, 0.08);
+  --kinetic-blue-light: rgba(62, 128, 173, 0.08);
+  --text-primary: #333333;
+  --text-secondary: #555555;
+  --bg-section: #F8F9FB;
+}
+
+/* ─── Base ──────────────────────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Circular Std', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--text-primary);
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Typography Scale ──────────────────────────────────────────────────────── */
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+h2 {
+  font-size: clamp(1.875rem, 3vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+/* ─── Utilities ─────────────────────────────────────────────────────────────── */
+.section-padding {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.container-width {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* ─── Focus Rings ───────────────────────────────────────────────────────────── */
+*:focus-visible {
+  outline: 2px solid var(--kinetic-orange);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Scrollbar (subtle) ────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+/* ─── Email Template Preview ────────────────────────────────────────────────── */
+.email-preview {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* ─── Accordion Animation ───────────────────────────────────────────────────── */
+@keyframes slideDown {
+  from { height: 0; opacity: 0; }
+  to { height: var(--radix-accordion-content-height); opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { height: var(--radix-accordion-content-height); opacity: 1; }
+  to { height: 0; opacity: 0; }
+}
+
+[data-state='open'] .accordion-content {
+  animation: slideDown 200ms ease-out;
+}
+
+[data-state='closed'] .accordion-content {
+  animation: slideUp 200ms ease-out;
+}
