@@ -220,7 +220,7 @@ export default function EmailTemplates() {
                     </p>
                     <h2>Ready-to-Use Intro Email Templates</h2>
                     <p style={{ maxWidth: '540px', margin: '1rem auto 0', color: '#666', fontSize: '1.0625rem' }}>
-                        Just pick a style that matches your relationship, fill in the blanks, and hit send. We'll handle everything after.
+                        Just pick a style and hit send — we handle the rest.
                     </p>
                 </motion.div>
 

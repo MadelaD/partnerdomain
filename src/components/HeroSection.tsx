@@ -116,8 +116,8 @@ export default function HeroSection() {
 
                     {/* Headline */}
                     <motion.h1 {...fadeUpDelay(0.1)} style={{ marginBottom: '1.5rem' }}>
-                        Earn Rewards for Introducing Kinetic to{' '}
-                        <span style={{ color: '#F06F02' }}>Your Network</span>
+                        Earn Rewards for{' '}
+                        <span style={{ color: '#F06F02' }}>Referring Kinetic</span>
                     </motion.h1>
 
                     {/* Subheadline */}
@@ -126,8 +126,8 @@ export default function HeroSection() {
                         style={{ fontSize: '1.1875rem', lineHeight: 1.7, color: '#555', maxWidth: '520px', marginBottom: '2.5rem' }}
                     >
                         You already trust us to power your team with exceptional offshore talent.
-                        Help fellow business owners experience the same results — we handle everything,
-                        and reward you generously at every step.
+                        Help fellow business owners experience the same results —
+                        We handle everything — and reward you at every milestone.
                     </motion.p>
 
                     {/* CTAs */}
@@ -160,12 +160,11 @@ export default function HeroSection() {
                         </button>
                     </motion.div>
 
-                    {/* Trust signal */}
                     <motion.p
                         {...fadeUpDelay(0.4)}
                         style={{ marginTop: '1.5rem', fontSize: '0.875rem', color: '#888' }}
                     >
-                        ✦ No referral link required &nbsp;·&nbsp; ✦ Fully tracked dashboard &nbsp;·&nbsp; ✦ No earnings cap
+                        No sign-up required. No referral links. Just a simple intro email.
                     </motion.p>
                 </div>
 

@@ -106,7 +106,7 @@ export default function FinalCTA() {
                         margin: '0 auto 2.5rem',
                     }}>
                         Just send one thoughtful email — CC Ryan and your Recruiter — and we'll handle
-                        the rest while rewarding your partnership generously.
+                        the rest while rewarding your partnership at every milestone.
                     </p>
 
                     {/* CTAs */}
@@ -159,10 +159,10 @@ export default function FinalCTA() {
                     }}>
                         Questions? Email{' '}
                         <a
-                            href="mailto:crprogram@kineticstaff.com"
+                            href="mailto:ryan@kistaffing.com"
                             style={{ color: 'rgba(255,255,255,0.8)', textDecoration: 'underline' }}
                         >
-                            crprogram@kineticstaff.com
+                            ryan@kistaffing.com
                         </a>
                         {' '}or reach out to your Recruiter directly.
                     </p>

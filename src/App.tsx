@@ -60,14 +60,14 @@ export default function App() {
         {/* 4. Commission Breakdown */}
         <CommissionBreakdown />
 
-        {/* 5. Priority Fast-Track */}
-        <PriorityFastTrack />
-
-        {/* 6. Dashboard Transparency */}
+        {/* 5. Dashboard Transparency */}
         <DashboardTransparency />
 
-        {/* 7. Email Templates */}
+        {/* 6. Email Templates */}
         <EmailTemplates />
+
+        {/* 7. Priority Fast-Track (Pro Tip) */}
+        <PriorityFastTrack />
 
         {/* 8. FAQ */}
         <FAQ />

@@ -43,8 +43,7 @@ export default function GratitudeSection() {
                         style={{ fontSize: '1.125rem', lineHeight: 1.75, color: '#555', marginBottom: '1rem' }}
                     >
                         We truly value the trust you've placed in us to build and support your team
-                        with skilled offshore talent. Your partnership means everything to us — it's
-                        the foundation on which Kinetic grows and evolves.
+                        with skilled offshore talent. Your partnership means everything to us.
                     </motion.p>
 
                     <motion.p

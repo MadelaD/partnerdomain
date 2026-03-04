@@ -8,7 +8,7 @@ const faqs = [
     },
     {
         q: 'What happens if I forget to CC Ryan?',
-        a: "Reach out to your Recruiter or email crprogram@kineticstaff.com directly. They'll do their best to locate the referral and attribute it correctly, though timely CC'ing is always the fastest and surest path.",
+        a: "Reach out to your Recruiter or email ryan@kistaffing.com directly. They'll do their best to locate the referral and attribute it correctly, though timely CC'ing is always the fastest and surest path.",
     },
     {
         q: 'When does the recurring commission stop?',
@@ -20,7 +20,7 @@ const faqs = [
     },
     {
         q: 'How do I access or reset my dashboard?',
-        a: "Access your Referral Dashboard here: https://referkinetic.com/login\n\nLogin details are emailed automatically after your first referral is registered. If you need help accessing your account, contact your Recruiter or email crprogram@kineticstaff.com.",
+        a: "Access your Referral Dashboard here: https://referkinetic.com/login\n\nLogin details are emailed automatically after your first referral is registered. If you need help accessing your account, contact your Recruiter or email ryan@kistaffing.com.",
     },
 ];
 
