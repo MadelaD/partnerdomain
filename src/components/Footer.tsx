@@ -25,7 +25,7 @@ export default function Footer() {
                 {/* Logo + tagline */}
                 <div>
                     <img
-                        src="/kinetic-logo.svg"
+                        src="/kinetic-logo.png"
                         alt="Kinetic Innovative Staffing"
                         style={{ height: '36px', width: 'auto', marginBottom: '0.5rem', filter: 'brightness(0) invert(1) opacity(0.7)' }}
                     />

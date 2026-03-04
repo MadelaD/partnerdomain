@@ -8,7 +8,7 @@ const templates = [
         label: 'Short & Casual',
         subject: 'Quick intro – someone I think you should meet',
         body: `To: [Your Contact's Name] <[contact@email.com]>
-CC: ryan@kistaffing.com, [Your LR's email]
+CC: ryan@kistaffing.com, [Your Recruiter's email]
 Subject: Quick intro – someone I think you should meet
 
 Hey [Name],
@@ -24,7 +24,7 @@ If you're thinking about scaling your team or reducing overhead, it's worth a qu
         label: 'Professional / Sales-Driven',
         subject: 'Introduction: Kinetic Innovative Staffing — Offshore Talent Solution',
         body: `To: [Your Contact's Name] <[contact@email.com]>
-CC: ryan@kistaffing.com, [Your LR's email]
+CC: ryan@kistaffing.com, [Your Recruiter's email]
 Subject: Introduction: Kinetic Innovative Staffing — Offshore Talent Solution
 
 Hi [Name],
@@ -44,7 +44,7 @@ Warm regards,
         label: 'Value & Results-Focused',
         subject: `The staffing solution that's made a real difference for us`,
         body: `To: [Your Contact's Name] <[contact@email.com]>
-CC: ryan@kistaffing.com, [Your LR's email]
+CC: ryan@kistaffing.com, [Your Recruiter's email]
 Subject: The staffing solution that's made a real difference for us
 
 Hi [Name],

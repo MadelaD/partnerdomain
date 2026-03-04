@@ -33,7 +33,7 @@ export default function Navbar() {
             <nav className="container-width" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '72px' }}>
                 {/* Logo */}
                 <img
-                    src="/kinetic-logo.svg"
+                    src="/kinetic-logo.png"
                     alt="Kinetic Innovative Staffing"
                     style={{ height: '40px', width: 'auto' }}
                 />

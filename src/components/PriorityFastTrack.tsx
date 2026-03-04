@@ -4,7 +4,7 @@ const benefits = [
     {
         icon: '⚡',
         title: 'Faster Response & Follow-Up',
-        description: 'Your referral moves to the top of the queue from the moment you CC your LR.',
+        description: 'Your referral moves to the top of the queue from the moment you CC your Recruiter.',
     },
     {
         icon: '📅',
@@ -14,7 +14,7 @@ const benefits = [
     {
         icon: '🔄',
         title: 'Smoother Onboarding Coordination',
-        description: 'Your LR liaises directly with the account team, reducing handoff friction.',
+        description: 'Your Recruiter liaises directly with the account team, reducing handoff friction.',
     },
     {
         icon: '⭐',
@@ -38,7 +38,7 @@ function PriorityIllustration() {
             <rect x="40" y="116" width="240" height="12" rx="6" fill="rgba(62,128,173,0.1)" />
             <rect x="40" y="116" width="80" height="12" rx="6" fill="rgba(62,128,173,0.18)" />
             {/* Labels */}
-            <text x="40" y="54" fontFamily="system-ui,sans-serif" fontSize="10" fill="#F06F02" fontWeight="600">Priority (with LR CC)</text>
+            <text x="40" y="54" fontFamily="system-ui,sans-serif" fontSize="10" fill="#F06F02" fontWeight="600">Priority (with Recruiter CC)</text>
             <text x="40" y="82" fontFamily="system-ui,sans-serif" fontSize="10" fill="#3E80AD" fontWeight="600">Standard</text>
             <text x="40" y="110" fontFamily="system-ui,sans-serif" fontSize="10" fill="#aaa" fontWeight="600">Without CC</text>
             {/* Rocket / speed icon */}
@@ -87,7 +87,7 @@ export default function PriorityFastTrack() {
                             Pro Tip
                         </p>
                         <h2 style={{ marginBottom: '1.75rem' }}>
-                            CC Your LR to Give Your Referral Priority
+                            CC Your Recruiter to Give Your Referral Priority
                         </h2>
 
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>

@@ -20,7 +20,7 @@ import Footer from './components/Footer';
  *  3. GratitudeSection — appreciation copy block
  *  4. HowItWorks    — 4 step cards
  *  5. CommissionBreakdown — $50 / $500 / $100 per month cards
- *  6. PriorityFastTrack  — CC your LR benefits
+ *  6. PriorityFastTrack  — CC your Recruiter benefits
  *  7. DashboardTransparency — pipeline + earnings mockup
  *  8. EmailTemplates — 3 accordion templates + clipboard copy
  *  9. FAQ           — 5 accordion Q&As
