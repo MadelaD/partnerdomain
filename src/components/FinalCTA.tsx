@@ -105,7 +105,7 @@ export default function FinalCTA() {
                         maxWidth: '560px',
                         margin: '0 auto 2.5rem',
                     }}>
-                        Just send one thoughtful email — CC Ryan and your Recruiter — and we'll handle
+                        Just send one thoughtful email — CC ryan@kistaffing.com — and we'll handle
                         the rest while rewarding your partnership at every milestone.
                     </p>
 
