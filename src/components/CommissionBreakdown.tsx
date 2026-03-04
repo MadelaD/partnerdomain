@@ -4,7 +4,7 @@ const tiers = [
     {
         amount: '$50',
         label: 'Per Completed Demo',
-        description: 'Earned as soon as your referred contact completes a discovery demo with our team.',
+        description: 'Earned when your referred contact, a decision-maker looking to hire in the near term, completes a demo with our team.',
         icon: '🎯',
         featured: false,
         color: '#3E80AD',
