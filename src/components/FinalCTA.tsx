@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
 
 const CASUAL_TEMPLATE = `To: [Your Contact's Name] <[contact@email.com]>
-CC: ryan@kistaffing.com, [Your Recruiter's email]
+CC: crprogram@kineticstaff.com, [Your Recruiter's email]
 Subject: Quick intro – someone I think you should meet
 
 Hey [Name],
@@ -159,10 +159,10 @@ export default function FinalCTA() {
                     }}>
                         Questions? Email{' '}
                         <a
-                            href="mailto:ryan@kistaffing.com"
+                            href="mailto:crprogram@kineticstaff.com"
                             style={{ color: 'rgba(255,255,255,0.8)', textDecoration: 'underline' }}
                         >
-                            ryan@kistaffing.com
+                            crprogram@kineticstaff.com
                         </a>
                         {' '}or reach out to your Recruiter directly.
                     </p>

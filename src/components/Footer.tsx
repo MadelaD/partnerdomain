@@ -69,7 +69,7 @@ export default function Footer() {
                 <div style={{ fontSize: '0.8125rem', textAlign: 'right' }}>
                     <div style={{ color: 'rgba(255,255,255,0.45)', marginBottom: '0.25rem' }}>Program Contact</div>
                     <a
-                        href="mailto:ryan@kistaffing.com"
+                        href="mailto:crprogram@kineticstaff.com"
                         style={{
                             color: '#F06F02',
                             textDecoration: 'none',
@@ -77,7 +77,7 @@ export default function Footer() {
                             fontSize: '0.875rem',
                         }}
                     >
-                        ryan@kistaffing.com
+                        crprogram@kineticstaff.com
                     </a>
                 </div>
             </div>
