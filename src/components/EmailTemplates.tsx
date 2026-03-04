@@ -4,61 +4,62 @@ import toast from 'react-hot-toast';
 
 const templates = [
     {
-        id: 'casual',
-        label: 'Short & Casual',
-        subject: 'Quick intro – someone I think you should meet',
-        body: `To: [Your Contact's Name] <[contact@email.com]>
-CC: ryan@kistaffing.com, [Your Recruiter's email]
-Subject: Quick intro – someone I think you should meet
+        id: 'results',
+        label: 'Value & Results-Focused',
+        subject: `A staffing solution that's worked well for us`,
+        body: `To: [Prospect Name]
+CC: ryan@kistaffing.com, [Recruiter Name + email]
+Subject: A staffing solution that's worked well for us
 
-Hey [Name],
+Hi [Prospect Name],
 
-I wanted to introduce you to Ryan at Kinetic Innovative Staffing. They've helped us build out some really solid offshore roles, and honestly the quality has been impressive.
+We've been working with Kinetic Innovative Staffing and it's genuinely made a difference in how we scale our team. We've been able to grow efficiently while maintaining strong performance and reliability.
 
-If you're thinking about scaling your team or reducing overhead, it's worth a quick conversation. I've CC'd Ryan directly — he'll take it from here.
+I wanted to connect you with [Recruiter Name], our recruiter at Kinetic, who manages the process end-to-end. [Recruiter Name] can walk you through how it works and see if it could support your team as well.
 
+I'll let [Recruiter Name] take it from here.
+
+Best,
 [Your Name]`,
     },
     {
         id: 'professional',
         label: 'Professional / Sales-Driven',
-        subject: 'Introduction: Kinetic Innovative Staffing — Offshore Talent Solution',
-        body: `To: [Your Contact's Name] <[contact@email.com]>
-CC: ryan@kistaffing.com, [Your Recruiter's email]
-Subject: Introduction: Kinetic Innovative Staffing — Offshore Talent Solution
+        subject: 'Introduction — Kinetic Innovative Staffing',
+        body: `To: [Prospect Name]
+CC: ryan@kistaffing.com, [Recruiter Name + email]
+Subject: Introduction — Kinetic Innovative Staffing
 
-Hi [Name],
+Hi [Prospect Name],
 
-I hope this message finds you well. I wanted to connect you with Ryan Moore at Kinetic Innovative Staffing, a firm I've had the pleasure of partnering with for our offshore staffing needs.
+I wanted to introduce you to [Recruiter Name] from Kinetic Innovative Staffing. We've partnered with Kinetic for offshore staffing and have had a smooth, well-managed experience.
 
-Kinetic specializes in sourcing, vetting, and placing highly skilled offshore professionals across a wide range of business functions. What sets them apart is their fully managed process — from candidate sourcing through onboarding — resulting in a seamless experience with measurable ROI.
+They handle sourcing, vetting, and onboarding, making it easier to scale without adding internal hiring complexity.
 
-Given your current growth trajectory, I believe a conversation would be well worth your time. I've CC'd Ryan here, and I'll let him take the lead on scheduling a discovery session.
+I'll let [Recruiter Name] connect with you directly to explore whether this could be helpful.
 
 Warm regards,
-[Your Name]
-[Your Title] | [Company]`,
+[Your Name]`,
     },
     {
-        id: 'results',
-        label: 'Value & Results-Focused',
-        subject: `The staffing solution that's made a real difference for us`,
-        body: `To: [Your Contact's Name] <[contact@email.com]>
-CC: ryan@kistaffing.com, [Your Recruiter's email]
-Subject: The staffing solution that's made a real difference for us
+        id: 'casual',
+        label: 'Short & Casual',
+        subject: 'Quick intro',
+        body: `To: [Prospect Name]
+CC: ryan@kistaffing.com, [Recruiter Name + email]
+Subject: Quick intro
 
-Hi [Name],
+Hey [Prospect Name],
 
-We started working with Kinetic Innovative Staffing a while back and it's genuinely changed how we think about hiring. We've been able to scale our team, reduce costs, and maintain great output — all with people who are reliable and highly capable.
+I wanted to introduce you to [Recruiter Name] at Kinetic Innovative Staffing. They've helped us build out strong offshore roles and made the process simple.
 
-I thought of you because [reason you thought of them — e.g., "you mentioned you were scaling your ops team" / "you've been looking for cost-effective growth options"].
-
-Ryan from Kinetic is CC'd here. Happy to share more about our experience if helpful, but I'll let Ryan walk you through the specifics.
+I'll let [Recruiter Name] take it from here.
 
 Best,
 [Your Name]`,
     },
 ];
+
 
 function ChevronIcon({ open }: { open: boolean }) {
     return (
