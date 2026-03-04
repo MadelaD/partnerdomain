@@ -4,22 +4,22 @@ const benefits = [
     {
         icon: '⚡',
         title: 'Faster Initial Response',
-        description: 'Your Recruiter is immediately aware of the introduction and can help ensure timely follow-up.',
+        description: 'Your Recruiter is immediately aware of the introduction and can follow up with your contact promptly.',
     },
     {
         icon: '📅',
         title: 'Coordinated Demo Scheduling',
-        description: 'Having your Recruiter looped in helps align availability and move the scheduling process forward more smoothly.',
+        description: 'With your Recruiter looped in early, scheduling and next steps can be coordinated more efficiently.',
     },
     {
         icon: '🔄',
         title: 'Better Internal Coordination',
-        description: 'Your Recruiter can liaise with the account and sourcing teams early, helping reduce back-and-forth later on.',
+        description: 'Your Recruiter can liaise with the account and sourcing teams early, helping reduce back-and-forth later in the process.',
     },
     {
         icon: '⭐',
         title: 'A Stronger Overall Experience',
-        description: 'Clear communication and proper coordination help create a professional and seamless experience for your contact — reflecting well on your recommendation.',
+        description: 'Clear communication and proper coordination help create a smooth and professional experience for your contact — reflecting well on your recommendation.',
     },
 ];
 
