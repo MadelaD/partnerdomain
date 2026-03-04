@@ -107,10 +107,10 @@ export default function PriorityFastTrack() {
                             Pro Tip
                         </p>
                         <h2 style={{ marginBottom: '0.75rem' }}>
-                            CC Your Recruiter for a Smoother Referral Experience
+                            CC Ryan and Your Recruiter for a Smoother Referral Experience
                         </h2>
                         <p style={{ fontSize: '1rem', color: '#666', lineHeight: 1.7, marginBottom: '1.75rem', maxWidth: '500px' }}>
-                            Looping in your Recruiter helps us manage your referral more efficiently and ensure nothing slips through.
+                            In addition to CC’ing ryan@kistaffing.com for referral tracking, looping in your Recruiter helps us manage your introduction more efficiently and ensure nothing slips through.
                         </p>
 
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
