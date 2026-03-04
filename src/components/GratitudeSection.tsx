@@ -64,43 +64,6 @@ export default function GratitudeSection() {
                         every milestone — transparently and consistently.
                     </motion.p>
 
-                    {/* Signature flourish */}
-                    <motion.div
-                        variants={fadeUp}
-                        style={{
-                            marginTop: '2.5rem',
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '0.75rem',
-                            backgroundColor: '#fff',
-                            border: '1px solid rgba(240,111,2,0.2)',
-                            borderRadius: '1rem',
-                            padding: '1rem 1.5rem',
-                            boxShadow: '0 4px 12px rgba(0,0,0,0.04)',
-                        }}
-                    >
-                        <div
-                            style={{
-                                width: '40px',
-                                height: '40px',
-                                borderRadius: '50%',
-                                backgroundColor: '#F06F02',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                color: '#fff',
-                                fontWeight: 700,
-                                fontSize: '1rem',
-                                flexShrink: 0,
-                            }}
-                        >
-                            R
-                        </div>
-                        <div style={{ textAlign: 'left' }}>
-                            <div style={{ fontWeight: 600, color: '#333', fontSize: '0.9375rem' }}>Ryan & The Kinetic Team</div>
-                            <div style={{ color: '#888', fontSize: '0.8125rem' }}>ryan@kistaffing.com</div>
-                        </div>
-                    </motion.div>
                 </motion.div>
             </div>
         </section>
