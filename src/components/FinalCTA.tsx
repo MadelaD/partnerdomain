@@ -164,7 +164,6 @@ export default function FinalCTA() {
                         >
                             ryan@kistaffing.com
                         </a>
-                        {' '}or reach out to your Recruiter directly.
                     </p>
                 </motion.div>
             </div>
