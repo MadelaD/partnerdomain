@@ -8,7 +8,7 @@ const templates = [
         label: 'Value & Results-Focused',
         subject: `A staffing solution that's worked well for us`,
         body: `To: [Prospect Name]
-CC: crprogram@kineticstaff.com, [Recruiter Name + email]
+CC: ryan@kistaffing.com, [Recruiter Name + email]
 Subject: A staffing solution that's worked well for us
 
 Hi [Prospect Name],
@@ -27,7 +27,7 @@ Best,
         label: 'Professional / Sales-Driven',
         subject: 'Introduction — Kinetic Innovative Staffing',
         body: `To: [Prospect Name]
-CC: crprogram@kineticstaff.com, [Recruiter Name + email]
+CC: ryan@kistaffing.com, [Recruiter Name + email]
 Subject: Introduction — Kinetic Innovative Staffing
 
 Hi [Prospect Name],
@@ -46,7 +46,7 @@ Warm regards,
         label: 'Short & Casual',
         subject: 'Quick intro',
         body: `To: [Prospect Name]
-CC: crprogram@kineticstaff.com, [Recruiter Name + email]
+CC: ryan@kistaffing.com, [Recruiter Name + email]
 Subject: Quick intro
 
 Hey [Prospect Name],

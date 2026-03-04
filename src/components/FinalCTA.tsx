@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
 
 const CASUAL_TEMPLATE = `To: [Your Contact's Name] <[contact@email.com]>
-CC: crprogram@kineticstaff.com, [Your Recruiter's email]
+CC: ryan@kistaffing.com, [Your Recruiter's email]
 Subject: Quick intro – someone I think you should meet
 
 Hey [Name],

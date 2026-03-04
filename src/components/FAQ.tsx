@@ -4,11 +4,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 const faqs = [
     {
         q: 'Do I need a special referral link?',
-        a: "No link required at all. The only step is CC'ing crprogram@kineticstaff.com and your dedicated Recruiter email when making an intro. That's all we need to attribute the referral to you and set up your dashboard automatically.",
+        a: "No link required at all. The only step is CC'ing ryan@kistaffing.com and your dedicated Recruiter email when making an intro. That's all we need to attribute the referral to you and set up your dashboard automatically.",
     },
     {
         q: 'What happens if I forget to CC Ryan?',
-        a: "Reach out to your Recruiter or email crprogram@kineticstaff.com directly and let him know you made an introduction. He'll do his best to locate the referral and attribute it correctly, though timely CC'ing is always the fastest and surest path.",
+        a: "Reach out to your Recruiter or email crprogram@kineticstaff.com directly. They'll do their best to locate the referral and attribute it correctly, though timely CC'ing is always the fastest and surest path.",
     },
     {
         q: 'When does the recurring commission stop?',

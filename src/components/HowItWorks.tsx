@@ -13,7 +13,7 @@ const steps = [
         ),
         title: 'Send a Warm Introduction',
         description:
-            'Email your contact and CC crprogram@kineticstaff.com + your dedicated Recruiter email.',
+            'Email your contact and CC ryan@kistaffing.com + your dedicated Recruiter email.',
         micro: "CC'ing Ryan ensures proper attribution and fast-tracking.",
     },
     {
