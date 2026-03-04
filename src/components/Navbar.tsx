@@ -74,6 +74,23 @@ export default function Navbar() {
                     >
                         Earnings
                     </button>
+                    <a
+                        href="https://referkinetic.com/login"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                            fontSize: '0.9375rem',
+                            fontWeight: 500,
+                            color: '#555',
+                            textDecoration: 'none',
+                            padding: '0.5rem 0',
+                            transition: 'color 0.2s',
+                        }}
+                        onMouseEnter={e => (e.currentTarget.style.color = '#3E80AD')}
+                        onMouseLeave={e => (e.currentTarget.style.color = '#555')}
+                    >
+                        Login
+                    </a>
                     <button
                         onClick={() => scrollTo('templates')}
                         style={{
