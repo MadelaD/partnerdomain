@@ -147,6 +147,19 @@ export default function CommissionBreakdown() {
                         </span>
                     </div>
                 </motion.div>
+
+                {/* T&C link */}
+                <p style={{ textAlign: 'center', marginTop: '1.25rem', fontSize: '0.8125rem', color: '#999' }}>
+                    Subject to program terms.{' '}
+                    <a
+                        href="https://www.kineticstaff.com/terms-conditions-referral/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: '#3E80AD', textDecoration: 'underline' }}
+                    >
+                        View full Terms & Conditions
+                    </a>
+                </p>
             </div>
         </section>
     );

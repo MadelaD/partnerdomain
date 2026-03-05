@@ -32,6 +32,14 @@ export default function Footer() {
                     <p style={{ fontSize: '0.8125rem', marginTop: '0.375rem', color: 'rgba(255,255,255,0.35)', marginBottom: 0 }}>
                         © {new Date().getFullYear()} Kinetic Innovative Staffing. All rights reserved.
                     </p>
+                    <a
+                        href="https://www.kineticstaff.com/terms-conditions-referral/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.35)', textDecoration: 'underline', marginTop: '0.25rem', display: 'inline-block' }}
+                    >
+                        Terms & Conditions
+                    </a>
                 </div>
 
                 {/* Quick links */}
