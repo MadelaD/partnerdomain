@@ -20,7 +20,7 @@ const tiers = [
     {
         amount: '$100',
         label: '/ Month per Active Hire',
-        description: 'Recurring monthly commission for every full-time hire that remains active — providing ongoing monthly earnings.',
+        description: 'Recurring monthly commission for every full-time hire that remains active, starting from the second month after the hire begins.',
         icon: '♾️',
         featured: true,
         color: '#F06F02',
