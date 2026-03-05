@@ -11,8 +11,8 @@ const tiers = [
     },
     {
         amount: '$500',
-        label: 'Per First Hire',
-        description: 'A one-time bonus paid when your referred contact makes their first Kinetic placement.',
+        label: 'Per New Paying Client',
+        description: 'A one-time bonus paid when your referred company becomes a paying client and hires their first full-time team member through Kinetic.',
         icon: '🤝',
         featured: false,
         color: '#3E80AD',
@@ -20,7 +20,7 @@ const tiers = [
     {
         amount: '$100',
         label: '/ Month per Active Hire',
-        description: 'Recurring monthly commission for every hire that remains active — providing recurring monthly earnings.',
+        description: 'Recurring monthly commission for every full-time hire that remains active — providing ongoing monthly earnings.',
         icon: '♾️',
         featured: true,
         color: '#F06F02',
